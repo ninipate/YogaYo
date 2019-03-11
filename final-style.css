@@ -1,0 +1,115 @@
+
+body{
+margin:60px 15%;	
+padding:0;
+background-color: white; 
+color: #6B0167;
+font-family: 'Kavivanar', cursive;
+line-height: 30px;
+text-align: left; 
+float: left; 
+}
+*{
+	box-sizing: border-box;
+}
+.horiz-nav{ 	
+width:100%; 
+background-color:#6B0167;
+box-shadow: 2px 2px 20px #110311;  
+position:fixed; 
+left:0;  
+top:0;   
+} 
+.horiz-nav ul{
+width:100%;
+margin: auto;
+padding:0; 
+list-style-type: none; 
+font-size:18px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+.horiz-nav li{
+float: left;
+}  
+.horiz-nav a{ 
+display: block; 
+box-sizing: border-box;
+width: 130px; 
+padding: 10px;
+text-decoration: none;
+text-align: center; 
+background-color:#6B0167;
+color:white;
+font-family: 'Kavivanar', cursive;
+} 
+.horiz-nav a:link{
+color: white;
+}
+.horiz-nav a:visited{
+	color: #8e8787;  /*grey*/
+}
+.horiz-nav a:hover{
+background-color: #ff0505; /*lighter red*/
+
+}
+.horiz-nav a:active{  
+color: black;
+}
+
+.first-anime{  /*ANIMATION-NATIVE AMERICANS*/
+	width: 50%;   
+	height: auto;
+	display:block;
+	margin:2% auto;
+	
+	padding: 3%;
+
+}
+.left-responsive { 
+	max-width: 100%;
+	height: auto;
+	float: left;	
+	margin:10px;
+	border: solid #a80b0b; 
+	padding: 0;
+}
+
+.right-responsive {
+	max-width: 30%;
+	max-height: auto;
+	margin:10px;
+	
+	padding: 0;
+	float:right;
+}
+
+.sound-div {
+	box-sizing: border-box;
+	border:solid 5px #a80b0b;
+	padding: 0 auto;
+	float: right;
+}
+audio {
+	width: 100%;
+}
+
+h1,h2,h3 {color:#6B0167; }
+.youtube {
+	width: 560px;
+	height: 315px;
+	float: left;
+	clear:left;
+	margin: 0 40px 40px 0;
+	border: solid #a80b0b; 
+}
+
+.navajo-video{
+	float: right;
+	margin: 3%;
+	border: solid #a80b0b;
+}
+ 
+
+
+
+
